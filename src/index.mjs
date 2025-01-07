@@ -26,7 +26,7 @@ const mockUsers = [
     { id: 2, username: "jack", displayName: "jack" },
     { id: 3, username: "dam", displayName: "dam" },
 ];
-app.listen(3002), () => {};
+app.listen(PORT), () => {};
 app.get("/", (req, res) => {
     res.status(201).send({ msg: "hello" });
 });
